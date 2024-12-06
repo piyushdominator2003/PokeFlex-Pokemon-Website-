@@ -1,0 +1,151 @@
+.main-div{
+    width: 70rem;
+    height: 70rem;
+    background-color: rgba(165, 42, 42, 0.463);
+    position: relative;
+    margin-left: 10%;
+    margin-top: 6%;
+    margin-bottom: 8%;
+    border-radius: 50px;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.masterDetails{
+    width: 60rem;
+    height: 25rem;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    gap: 10px;
+}
+.master-imgName{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+.masterDetails .master-imgName{
+    width: 25rem;
+    height: 15rem;
+}
+.masterDetails .master-imgName .masterImage{
+    position: absolute;
+    top: 2%;
+    width: 15rem;
+    height: 20rem;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 15px;
+    box-shadow: 2px 3px 3px black;
+    padding: 1%;
+}
+.masterDetails .master-imgName .masterImage img{
+    width: 14.5rem;
+    height: 19.5rem;
+    border-radius: 15px;
+    object-fit: cover;
+}
+.name h1{
+    color: white;
+    text-shadow: 2px 3px 3px black;
+}
+.description{
+    position: absolute;
+    top: 2%;
+    right: 0;
+    width: 35rem;
+    height: 20rem;
+    padding: 4%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-color: rgba(0, 100, 0, 0.418);
+    border-radius: 15px;
+    box-shadow: 2px 3px 3px black;
+}
+.description p{
+    color: white;
+    font-size: larger;
+}
+h1{
+    color: white;
+    margin-bottom: 1%;
+}
+.pokemons{
+    width: 60rem;
+    height: 50rem;
+    background-color: rgba(255, 217, 0, 0.344);
+    border-radius: 15px;
+    box-shadow: 2px 3px 3px black;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 25px;
+    flex: 40%;
+    flex-wrap: wrap;
+    padding: 2%;
+}
+.pokemons .image{
+    position: relative;
+    width: 15rem;
+    height: 13rem;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 15px;
+    box-shadow: 2px 3px 3px black;
+    overflow: hidden;
+    cursor: pointer;
+}
+.pokemons .image img{
+    width: 14.5rem;
+    height: 12.5rem;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.pokemons .image .pokemon-details{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    background-color:rgba(0, 0, 0, 0.371);
+    border-radius: 15px;
+    left: 100%;
+    transition: 0.5s all linear;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.pokemons .image:hover  .pokemon-details{
+    left: 0;
+}
+.pokemon-name h4{
+    color: white;
+}
+.pokemon-details .pokemon-link button{
+    height: 30px;
+    border: 2px solid white;
+    background-color: rgba(255, 217, 0, 0);
+    border-radius: 15px;
+    color: white;
+}
+.pokemon-details .pokemon-link button:hover , .pokemon-details .pokemon-link button:active{
+    background-color: rgba(255, 217, 0, 0.416);
+}

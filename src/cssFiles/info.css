@@ -1,0 +1,233 @@
+.infos{
+    position: relative;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.infos h1{
+    color: white;
+    text-shadow: 3px 4px 4px black;
+}
+.infoI{
+    width: 70rem;
+    height: 20rem;
+    background-color: rgba(0, 128, 117, 0.426);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center; 
+    gap: 50px;
+    border-radius: 15px;
+}
+
+.infoI .MasterDetails{
+    width: 200px;
+    height: 15rem;
+    cursor: pointer;
+}
+.infoI .MasterDetails .masterImg{
+    width: 200px;
+    height: 15rem;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.infoI .MasterDetails .masterImg img{
+    width: 195px;
+    height: 14.7rem;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.infoI .MasterDetails:hover .masterDetail{
+    left: 0;
+}
+.masterDetail{
+    position:absolute;
+    top: 0%;
+    left: 100%;
+    background-color: rgba(102, 51, 153, 0.425);
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    backdrop-filter: blur(5px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    transition: 1s all ;
+}
+.masterDetail .name{
+    color: white;
+    font-size: large;
+    font-weight: 700;
+    text-shadow: 1px 2px 2px black;
+    display: flex;
+    gap: 10px;
+}
+.masterDetail .Debut-Poke{
+    color: white;
+    font-size: large;
+    font-weight: 700;
+    text-shadow: 1px 2px 2px black;
+    display: flex;
+    gap: 10px;
+}
+.masterDetail .gender{
+    color: white;
+    font-size: large;
+    font-weight: 700;
+    text-shadow: 1px 2px 2px black;
+    display: flex;
+    gap: 10px;
+}
+.masterDetail .city{
+    color: white;
+    font-size: large;
+    font-weight: 700;
+    text-shadow: 1px 2px 2px black;
+    display: flex;
+    gap: 10px;
+}
+.masterDetail button{
+    border: 0;
+    width: 9rem;
+    height: 2rem;
+    border-radius: 50px;
+    border: 2px solid white;
+    background-color: rgba(165, 42, 42, 0.452);
+    transition: 0.3s all;
+}
+.masterDetail button:active,.masterDetail button:hover{ 
+    background-color: darkred;
+}
+.masterDetail button .master-pokemon{
+    text-decoration: none;
+    color: white;
+}
+.trainers{
+    margin-top: 4%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.trainers h1{
+    color: white;
+    text-shadow: 3px 4px 4px black;
+}
+.trainer-cont{
+    background-color: rgba(102, 51, 153, 0.396);
+    width: 70rem;
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center; 
+    gap: 50px;
+    border-radius: 15px;
+    /* margin-bottom: 2%; */
+}
+.trainer-cards{
+    position: relative;
+    width: 200px;
+    height: 15rem;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 15px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.trainer-cards .trainer-img img{
+    width: 195px;
+    height: 14.7rem;
+    object-fit: cover;
+    border-radius: 15px;
+    margin: 0;
+    padding: 0;
+}
+.trainer-details{
+    position:absolute;
+    top: 0%;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    background-color: rgba(102, 51, 153, 0.501);
+    backdrop-filter: blur(5px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    transition: 1s all;
+}
+.trainer-details .name{
+    color: white;
+    font-size: large;
+    font-weight: 700;
+    text-shadow: 1px 2px 2px black;
+    display: flex;
+    gap: 10px;
+}
+.trainer-details .Debut-Poke{
+    color: white;
+    font-size: large;
+    font-weight: 700;
+    text-shadow: 1px 2px 2px black;
+    display: flex;
+    gap: 10px;
+}
+.trainer-details .gender{
+    color: white;
+    font-size: large;
+    font-weight: 700;
+    text-shadow: 1px 2px 2px black;
+    display: flex;
+    gap: 10px;
+}
+.trainer-details .city{
+    color: white;
+    font-size: large;
+    font-weight: 700;
+    text-shadow: 1px 2px 2px black;
+    display: flex;
+    gap: 10px;
+}
+.trainer-details button{
+    border: 0;
+    width: 9rem;
+    height: 2rem;
+    border-radius: 50px;
+    border: 2px solid white;
+    background-color: rgba(165, 42, 42, 0.452);
+    transition: 0.3s all;
+}
+.trainer-details button:active,.trainer-details button:hover{ 
+    background-color: darkred;
+}
+.trainer-details button .master-pokemon{
+    text-decoration: none;
+    color: white;
+}
+.trainer-cards:hover .trainer-details{
+    left: 0;
+}
+.breeder-cont{
+    background-color: rgba(113, 113, 26, 0.374);
+    margin-bottom: 5%;
+}
+.breeder-details{
+    background-color: rgba(138, 138, 78, 0.566);
+}

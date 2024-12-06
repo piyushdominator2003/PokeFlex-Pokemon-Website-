@@ -1,0 +1,57 @@
+.container{
+    position: fixed;
+    max-width: 110rem;
+    height: 60px;
+    background-color: rgba(26, 23, 36, 0.593);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    top: 0;
+    z-index: 4;
+}
+.grid{
+    width: 70rem;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+.logoClass{
+    width: 50px;
+    height: 50px;
+}
+.logoClass img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.navigations{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0%;
+}
+.navigations ul{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0%;
+    gap: 50px;
+}
+.navigations ul li{
+    text-decoration: none;
+}
+.navigations ul li .navlinks{
+    text-decoration: none;
+    color: gray;
+    font-size: large;
+}
+.navigations ul li .active{
+    color: white;
+}

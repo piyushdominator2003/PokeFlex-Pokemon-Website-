@@ -1,0 +1,73 @@
+.PokeField{
+    position: relative;
+    margin-left: 20%;
+    margin-top: 12%;
+    margin-bottom: 8%;
+    width: 50rem;
+    height: 20rem;
+    background-color: rgba(255, 0, 242, 0.266);
+    border-radius: 15px;
+    box-shadow: 2px 3px 3px black;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 30px;
+}
+.pokeImage{
+    width: 15rem;
+    height: 15rem;
+    border: 2px solid white;
+    border-radius: 15px;
+    box-shadow: 2px 3px 3px black;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.pokeImage img{
+    width: 14.8rem;
+    height: 14.8rem;
+    border-radius: 15px;
+    object-fit: cover;
+}
+.poke-des{
+    width: 30rem;
+    height: 15rem;
+    background-color: rgba(255, 68, 0, 0.337);
+    border-radius: 15px;
+    box-shadow: 2px 3px 3px black;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 2%;
+}
+.poke-des h1{
+    text-align: center;
+    font-size: x-large;
+    font-weight: 900;
+    font-family: cursive;
+}
+.poke-des p{
+    color: white;
+    font-size: medium;
+}
+.pokeType{
+    margin-bottom: -1%;
+    font-weight: 900;
+}
+.pokedexButton{
+    width: 170px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 50px;
+    border: 2px solid white;
+    background-color: rgba(255, 68, 0, 0.682);
+    color: white;
+}
+.pokedexButton:hover,.pokedexButton:active{
+    background-color: rgba(255, 68, 0, 0.227);
+}

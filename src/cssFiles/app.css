@@ -1,0 +1,28 @@
+body {
+    background-image: url(/images/back.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(26, 23, 36);
+    object-fit: cover;
+}
+
+/* Media query for small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body {
+        background-size: contain;
+    }
+}
+
+/* Media query for medium devices (tablets, 600px to 768px) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    body {
+        background-size: cover;
+    }
+}
+
+/* Media query for large devices (desktops, 768px and up) */
+@media only screen and (min-width: 768px) {
+    body {
+        background-size: cover;
+    }
+}
